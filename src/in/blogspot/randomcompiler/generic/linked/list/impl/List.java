@@ -43,4 +43,18 @@ public class List<T> {
             current = current.getNext();
         }
     }
+    
+    public T getNthNodeData(int index) {
+        int count = 0;
+        
+        Node<T> current = head;
+        while(current != null) {
+            ++count;
+            if(count == index) {
+                return current.getData();
+            }
+            current = current.getNext();
+        }
+        return null;
+    }
 }

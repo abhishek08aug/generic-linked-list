@@ -17,6 +17,7 @@ public class GenericListDemo {
         list1.add("of");
         list1.add("data");        
         list1.print();
+        System.out.println("5th node is: " + list1.getNthNodeData(5));
         
         System.out.println();
         
@@ -37,6 +38,7 @@ public class GenericListDemo {
         list2.add(8);
         list2.add(9);
         list2.print();
+        System.out.println("7th node is: " + list2.getNthNodeData(7));
         
         System.out.println();
         
