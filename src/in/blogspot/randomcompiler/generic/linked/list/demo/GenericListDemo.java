@@ -44,5 +44,51 @@ public class GenericListDemo {
         
         list2.remove(5);
         list2.print();
+        
+        System.out.println();
+        
+        list2.iterativeReverse();
+        list2.print();
+        
+        System.out.println();
+        
+        list2.recursiveReverse();
+        list2.print();
+        
+        System.out.println();
+        
+        list2.pairwiseSwap();
+        list2.print();
+        
+        System.out.println();
+        
+        list1.pairwiseSwap();
+        list1.print();
+        
+        System.out.println();
+        
+        List<Integer> list3 = new List<Integer>();
+        list3.add(1);
+        list3.add(2);
+        list3.add(3);
+        list3.add(4);
+        list3.add(5);
+        list3.add(6);
+        list3.add(7);
+        list3.add(8);
+        list3.add(9);
+        list3.print();
+        
+        System.out.println();
+        list3.deleteAlternate();
+        list3.print();
+        
+        System.out.println();
+        list3.deleteNodesWithLargeInRight();
+        list3.print();
+        
+        System.out.println();
+        list1.deleteNodesWithLargeInRight();
+        list1.print();
     }
 }

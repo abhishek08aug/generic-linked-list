@@ -1,6 +1,6 @@
 package in.blogspot.randomcompiler.generic.linked.list.impl;
 
-public class Node<T> {
+public class Node<T extends Comparable> {
     private T data;
     private Node<T> next;
 
